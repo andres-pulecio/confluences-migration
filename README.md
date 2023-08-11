@@ -20,6 +20,9 @@ This script allows you to retrieve page data from the Confluence platform using 
 - selenium_webpage_saver.py
 This script utilizes the Selenium library to interact with the web browser (Google Chrome) and save web pages from Confluence. The script starts a browser instance, logs in to Confluence using the provided credentials, opens each URL from the "urls_to_save" list, and simulates a right-click to save the page as an HTML file. The saved files will be stored in the "files-to-upload" directory on the desktop.
 
+- confluence_xml_saver.py
+This script logs in to a Confluence website using provided credentials, navigates to a list of spaces and useres, and export all the information in .zip file.
+
 ## Usage Instructions
 Make sure you meet the mentioned prerequisites.
 
